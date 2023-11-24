@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1A893AD2B1076CD00C94889 /* RealTimeChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893AC2B1076CD00C94889 /* RealTimeChartApp.swift */; };
+		D1A893AF2B1076CD00C94889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893AE2B1076CD00C94889 /* ContentView.swift */; };
+		D1A893B12B1076CF00C94889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A893B02B1076CF00C94889 /* Assets.xcassets */; };
+		D1A893B42B1076CF00C94889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A893B32B1076CF00C94889 /* Preview Assets.xcassets */; };
+		D1A893BE2B1076CF00C94889 /* RealTimeChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893BD2B1076CF00C94889 /* RealTimeChartTests.swift */; };
+		D1A893C82B1076CF00C94889 /* RealTimeChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893C72B1076CF00C94889 /* RealTimeChartUITests.swift */; };
+		D1A893CA2B1076CF00C94889 /* RealTimeChartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893C92B1076CF00C94889 /* RealTimeChartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1A893BA2B1076CF00C94889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1A893A12B1076CD00C94889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A893A82B1076CD00C94889;
+			remoteInfo = RealTimeChart;
+		};
+		D1A893C42B1076CF00C94889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1A893A12B1076CD00C94889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A893A82B1076CD00C94889;
+			remoteInfo = RealTimeChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1A893A92B1076CD00C94889 /* RealTimeChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A893AC2B1076CD00C94889 /* RealTimeChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChartApp.swift; sourceTree = "<group>"; };
+		D1A893AE2B1076CD00C94889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1A893B02B1076CF00C94889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1A893B32B1076CF00C94889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1A893B92B1076CF00C94889 /* RealTimeChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A893BD2B1076CF00C94889 /* RealTimeChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChartTests.swift; sourceTree = "<group>"; };
+		D1A893C32B1076CF00C94889 /* RealTimeChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A893C72B1076CF00C94889 /* RealTimeChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChartUITests.swift; sourceTree = "<group>"; };
+		D1A893C92B1076CF00C94889 /* RealTimeChartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A893A62B1076CD00C94889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A893B62B1076CF00C94889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A893C02B1076CF00C94889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1A893A02B1076CD00C94889 = {
+			isa = PBXGroup;
+			children = (
+				D1A893AB2B1076CD00C94889 /* RealTimeChart */,
+				D1A893BC2B1076CF00C94889 /* RealTimeChartTests */,
+				D1A893C62B1076CF00C94889 /* RealTimeChartUITests */,
+				D1A893AA2B1076CD00C94889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A893AA2B1076CD00C94889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A893A92B1076CD00C94889 /* RealTimeChart.app */,
+				D1A893B92B1076CF00C94889 /* RealTimeChartTests.xctest */,
+				D1A893C32B1076CF00C94889 /* RealTimeChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A893AB2B1076CD00C94889 /* RealTimeChart */ = {
+			isa = PBXGroup;
+			children = (
+				D1A893AC2B1076CD00C94889 /* RealTimeChartApp.swift */,
+				D1A893AE2B1076CD00C94889 /* ContentView.swift */,
+				D1A893B02B1076CF00C94889 /* Assets.xcassets */,
+				D1A893B22B1076CF00C94889 /* Preview Content */,
+			);
+			path = RealTimeChart;
+			sourceTree = "<group>";
+		};
+		D1A893B22B1076CF00C94889 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1A893B32B1076CF00C94889 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1A893BC2B1076CF00C94889 /* RealTimeChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1A893BD2B1076CF00C94889 /* RealTimeChartTests.swift */,
+			);
+			path = RealTimeChartTests;
+			sourceTree = "<group>";
+		};
+		D1A893C62B1076CF00C94889 /* RealTimeChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1A893C72B1076CF00C94889 /* RealTimeChartUITests.swift */,
+				D1A893C92B1076CF00C94889 /* RealTimeChartUITestsLaunchTests.swift */,
+			);
+			path = RealTimeChartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A893A82B1076CD00C94889 /* RealTimeChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A893CD2B1076CF00C94889 /* Build configuration list for PBXNativeTarget "RealTimeChart" */;
+			buildPhases = (
+				D1A893A52B1076CD00C94889 /* Sources */,
+				D1A893A62B1076CD00C94889 /* Frameworks */,
+				D1A893A72B1076CD00C94889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTimeChart;
+			productName = RealTimeChart;
+			productReference = D1A893A92B1076CD00C94889 /* RealTimeChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1A893B82B1076CF00C94889 /* RealTimeChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A893D02B1076CF00C94889 /* Build configuration list for PBXNativeTarget "RealTimeChartTests" */;
+			buildPhases = (
+				D1A893B52B1076CF00C94889 /* Sources */,
+				D1A893B62B1076CF00C94889 /* Frameworks */,
+				D1A893B72B1076CF00C94889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1A893BB2B1076CF00C94889 /* PBXTargetDependency */,
+			);
+			name = RealTimeChartTests;
+			productName = RealTimeChartTests;
+			productReference = D1A893B92B1076CF00C94889 /* RealTimeChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1A893C22B1076CF00C94889 /* RealTimeChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A893D32B1076CF00C94889 /* Build configuration list for PBXNativeTarget "RealTimeChartUITests" */;
+			buildPhases = (
+				D1A893BF2B1076CF00C94889 /* Sources */,
+				D1A893C02B1076CF00C94889 /* Frameworks */,
+				D1A893C12B1076CF00C94889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1A893C52B1076CF00C94889 /* PBXTargetDependency */,
+			);
+			name = RealTimeChartUITests;
+			productName = RealTimeChartUITests;
+			productReference = D1A893C32B1076CF00C94889 /* RealTimeChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A893A12B1076CD00C94889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D1A893A82B1076CD00C94889 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D1A893B82B1076CF00C94889 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D1A893A82B1076CD00C94889;
+					};
+					D1A893C22B1076CF00C94889 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D1A893A82B1076CD00C94889;
+					};
+				};
+			};
+			buildConfigurationList = D1A893A42B1076CD00C94889 /* Build configuration list for PBXProject "RealTimeChart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1A893A02B1076CD00C94889;
+			productRefGroup = D1A893AA2B1076CD00C94889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A893A82B1076CD00C94889 /* RealTimeChart */,
+				D1A893B82B1076CF00C94889 /* RealTimeChartTests */,
+				D1A893C22B1076CF00C94889 /* RealTimeChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A893A72B1076CD00C94889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A893B42B1076CF00C94889 /* Preview Assets.xcassets in Resources */,
+				D1A893B12B1076CF00C94889 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A893B72B1076CF00C94889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A893C12B1076CF00C94889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A893A52B1076CD00C94889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A893AF2B1076CD00C94889 /* ContentView.swift in Sources */,
+				D1A893AD2B1076CD00C94889 /* RealTimeChartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A893B52B1076CF00C94889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A893BE2B1076CF00C94889 /* RealTimeChartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A893BF2B1076CF00C94889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A893CA2B1076CF00C94889 /* RealTimeChartUITestsLaunchTests.swift in Sources */,
+				D1A893C82B1076CF00C94889 /* RealTimeChartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1A893BB2B1076CF00C94889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1A893A82B1076CD00C94889 /* RealTimeChart */;
+			targetProxy = D1A893BA2B1076CF00C94889 /* PBXContainerItemProxy */;
+		};
+		D1A893C52B1076CF00C94889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1A893A82B1076CD00C94889 /* RealTimeChart */;
+			targetProxy = D1A893C42B1076CF00C94889 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1A893CB2B1076CF00C94889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1A893CC2B1076CF00C94889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1A893CE2B1076CF00C94889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealTimeChart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jo.RealTimeChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1A893CF2B1076CF00C94889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealTimeChart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jo.RealTimeChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1A893D12B1076CF00C94889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jo.RealTimeChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeChart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealTimeChart";
+			};
+			name = Debug;
+		};
+		D1A893D22B1076CF00C94889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jo.RealTimeChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeChart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealTimeChart";
+			};
+			name = Release;
+		};
+		D1A893D42B1076CF00C94889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jo.RealTimeChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealTimeChart;
+			};
+			name = Debug;
+		};
+		D1A893D52B1076CF00C94889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jo.RealTimeChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealTimeChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A893A42B1076CD00C94889 /* Build configuration list for PBXProject "RealTimeChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A893CB2B1076CF00C94889 /* Debug */,
+				D1A893CC2B1076CF00C94889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A893CD2B1076CF00C94889 /* Build configuration list for PBXNativeTarget "RealTimeChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A893CE2B1076CF00C94889 /* Debug */,
+				D1A893CF2B1076CF00C94889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A893D02B1076CF00C94889 /* Build configuration list for PBXNativeTarget "RealTimeChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A893D12B1076CF00C94889 /* Debug */,
+				D1A893D22B1076CF00C94889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A893D32B1076CF00C94889 /* Build configuration list for PBXNativeTarget "RealTimeChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A893D42B1076CF00C94889 /* Debug */,
+				D1A893D52B1076CF00C94889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1A893A12B1076CD00C94889 /* Project object */;
+}
