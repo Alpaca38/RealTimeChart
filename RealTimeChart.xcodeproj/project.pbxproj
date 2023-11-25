@@ -14,8 +14,8 @@
 		D1A893BE2B1076CF00C94889 /* RealTimeChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893BD2B1076CF00C94889 /* RealTimeChartTests.swift */; };
 		D1A893C82B1076CF00C94889 /* RealTimeChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893C72B1076CF00C94889 /* RealTimeChartUITests.swift */; };
 		D1A893CA2B1076CF00C94889 /* RealTimeChartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893C92B1076CF00C94889 /* RealTimeChartUITestsLaunchTests.swift */; };
-		D1A893D72B107AAB00C94889 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1A893D62B107AAB00C94889 /* music.mp3 */; };
 		D1A893D92B107AEB00C94889 /* AudioProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A893D82B107AEB00C94889 /* AudioProcessing.swift */; };
+		D1A893DB2B122D5D00C94889 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1A893DA2B122D5D00C94889 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		D1A893C32B1076CF00C94889 /* RealTimeChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A893C72B1076CF00C94889 /* RealTimeChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChartUITests.swift; sourceTree = "<group>"; };
 		D1A893C92B1076CF00C94889 /* RealTimeChartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChartUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D1A893D62B107AAB00C94889 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../../Downloads/music.mp3; sourceTree = "<group>"; };
 		D1A893D82B107AEB00C94889 /* AudioProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioProcessing.swift; sourceTree = "<group>"; };
+		D1A893DA2B122D5D00C94889 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../../Downloads/music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 		D1A893AB2B1076CD00C94889 /* RealTimeChart */ = {
 			isa = PBXGroup;
 			children = (
+				D1A893DA2B122D5D00C94889 /* music.mp3 */,
 				D1A893D82B107AEB00C94889 /* AudioProcessing.swift */,
-				D1A893D62B107AAB00C94889 /* music.mp3 */,
 				D1A893AC2B1076CD00C94889 /* RealTimeChartApp.swift */,
 				D1A893AE2B1076CD00C94889 /* ContentView.swift */,
 				D1A893B02B1076CF00C94889 /* Assets.xcassets */,
@@ -237,8 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A893D72B107AAB00C94889 /* music.mp3 in Resources */,
 				D1A893B42B1076CF00C94889 /* Preview Assets.xcassets in Resources */,
+				D1A893DB2B122D5D00C94889 /* music.mp3 in Resources */,
 				D1A893B12B1076CF00C94889 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
