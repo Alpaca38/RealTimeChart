@@ -19,7 +19,6 @@ struct ContentView: View {
     let audioProcessing = AudioProcessing.shared
     
     @State var progress: Double = 0.0
-//    @State var currentTime: Double = 0.0
     @State var isPlaying = false
     @State var data: [Float] = Array(repeating: 0, count: Constants.barAmount)
         .map { _ in Float.random(in: 1...Constants.magnitudeLimit) }
@@ -141,26 +140,9 @@ struct ContentView: View {
     
     func updateProgress(_: Date) {
         if isPlaying {
-            var currentTime = getCurrentTime()
-            let duration = getDuration("music")
+            let currentTime = audioProcessing.getCurrentTime()
+            let duration = audioProcessing.getDuration("music")
             progress = currentTime / Double(duration)
-        }
-    }
-    
-    func getCurrentTime() -> TimeInterval {
-        if let nodeTime: AVAudioTime = audioProcessing.player.lastRenderTime, let playerTime: AVAudioTime = audioProcessing.player.playerTime(forNodeTime: nodeTime) {
-           return Double(Double(playerTime.sampleTime) / playerTime.sampleRate)
-        }
-        return 0
-    }
-    
-    func getDuration(_ fileName: String) -> TimeInterval {
-        do {
-            let audioFile = try AVAudioFile(forReading: Bundle.main.url(forResource: fileName, withExtension: "mp3")!)
-            let audioNodeFileLength = AVAudioFrameCount(audioFile.length)
-            return Double(Double(audioNodeFileLength) / audioFile.fileFormat.sampleRate)
-        } catch {
-            return 0
         }
     }
 }

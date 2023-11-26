@@ -80,4 +80,21 @@ class AudioProcessing {
         
         return normalizedMagnitudes
     }
+    
+    func getCurrentTime() -> TimeInterval {
+        if let nodeTime: AVAudioTime = player.lastRenderTime, let playerTime: AVAudioTime = player.playerTime(forNodeTime: nodeTime) {
+           return Double(Double(playerTime.sampleTime) / playerTime.sampleRate)
+        }
+        return 0
+    }
+    
+    func getDuration(_ fileName: String) -> TimeInterval {
+        do {
+            let audioFile = try AVAudioFile(forReading: Bundle.main.url(forResource: fileName, withExtension: "mp3")!)
+            let audioNodeFileLength = AVAudioFrameCount(audioFile.length)
+            return Double(Double(audioNodeFileLength) / audioFile.fileFormat.sampleRate)
+        } catch {
+            return 0
+        }
+    }
 }
